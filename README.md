@@ -21,3 +21,12 @@ from your main model layout(s) with the `Page >` and `Page <` buttons.
 ### Example:
 ![Example screenshot](https://github.com/marcoose/edgetx-tx16s-widgets/blob/main/Docs/example-docs-screen.png)
 
+
+## OutputsPRO
+Basicall the same as the built-in Outputs widget except that it lets you choose which channels
+to output via a 'bitmask'.  There are two eight-character option inputs, `FirstChans`
+and `LastChans`, consisting of 1's and 0's to indicate if the channel should be
+included or not.  `FirstChans` is Ch1-8, and `LastChans` is Ch9-16.  A `1` indicates
+the channel should be included.
+
+The borders and color of the border is also configurable.

@@ -7,11 +7,17 @@ currently loaded model from IMAGES/TX16SDocs.  It has no options/setup.
 This widget is intended to display full screen images generated from
 [https://marcoose.github.io/tx16s-docs/](https://marcoose.github.io/tx16s-docs/)
 
-It generates 'documentation' images to provide a reminder of how your
-switches, pots, and trims are configured when you switch between many models
-and can't always remember how you set them up when you get out to the field.
+It generates 'documentation' images to remind you how you set up your
+switches, pots, and trims.  I have a many different 'toy' models, and sometimes
+I can't remember how to arm or control some of the more eccentric ones :laughing:.
 
-Add the widget to a separate 'Main view' using 'Full screen' (with all display
-elements turned off) or 'App mode' layout.  Navigate to and from the screen
+Add the widget to a separate 'Main view' using `Full screen` (with all display
+elements turned off) or `App mode` layout.  Navigate to and from the screen
 from your main model layout(s) with the `Page >` and `Page <` buttons.
+
+### Configuration:
+![Configuration screenshot](https://github.com/marcoose/edgetx-tx16s-widgets/blob/main/Docs/widget-config.png)
+
+### Example:
+![Example screenshot](https://github.com/marcoose/edgetx-tx16s-widgets/blob/main/Docs/example-docs-screen.png)
 

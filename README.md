@@ -1,8 +1,10 @@
 # EdgeTX Custom Widgets for Radiomaster TX16S
 
 ## TX16SDocs
-A simple widget that displays a .png file with the same name as the
-currently loaded model from IMAGES/TX16SDocs.  It has no options/setup.
+A simple widget that displays a .png file from the folder named IMAGES/TX16SDocs.
+By default, it attempts to find a file matching the name of the model (first 8 chars).
+Note: The total filename length allowed in widget options is 12 characters, including
+the period and extension (i.e. a DOS 8.3 filename).
 
 This widget is intended to display full screen images generated from
 [https://marcoose.github.io/tx16s-docs/](https://marcoose.github.io/tx16s-docs/)
